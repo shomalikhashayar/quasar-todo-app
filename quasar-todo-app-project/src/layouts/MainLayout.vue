@@ -15,7 +15,10 @@
         <div class="text-h3">Todo</div>
         <div class="text-subtitle1">{{ todaysDate }}</div>
       </div>
-      <q-img src="../assets/images/todo.jpg" class="header-image absolute-top" />
+      <q-img
+        src="../assets/images/todo.jpg"
+        class="header-image absolute-top"
+      />
     </q-header>
 
     <q-drawer
@@ -51,15 +54,13 @@
       </q-scroll-area>
 
       <q-img
-        class=" avatar-background-image absolute-top"
+        class="avatar-background-image absolute-top"
         src="../assets/images/mountains.jpg"
         style="height: 192px"
       >
         <div class="absolute-bottom bg-transparent">
           <q-avatar size="56px" class="q-mb-sm">
-            <img class="avatar-image"
-              src="../assets/images/khashayar.jpeg"
-            />
+            <img class="avatar-image" src="../assets/images/khashayar.jpeg" />
           </q-avatar>
           <div class="text-weight-bold">Khashayar Shomali</div>
           <div class="">@shomalikhashayar</div>
@@ -114,10 +115,7 @@ export default {
   color: rgba(255, 255, 255, 0.616);
 }
 
-.avatar-image{
+.avatar-image {
   border: 1px solid rgb(255, 255, 255);
 }
-
-
-
 </style>
