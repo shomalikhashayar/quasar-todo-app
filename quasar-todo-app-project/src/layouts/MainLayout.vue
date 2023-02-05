@@ -15,7 +15,7 @@
         <div class="text-h3">Todo</div>
         <div class="text-subtitle1">{{ todaysDate }}</div>
       </div>
-      <q-img src="assets/todo.jpg" class="header-image absolute-top" />
+      <q-img src="../assets/images/todo.jpg" class="header-image absolute-top" />
     </q-header>
 
     <q-drawer
@@ -40,28 +40,29 @@
             <q-item-section> Todo </q-item-section>
           </q-item>
 
-          <q-item clickable v-ripple to="/help" exact>
+          <q-item clickable v-ripple to="/about" exact>
             <q-item-section avatar>
               <q-icon name="help" />
             </q-item-section>
 
-            <q-item-section> Help </q-item-section>
+            <q-item-section> About </q-item-section>
           </q-item>
         </q-list>
       </q-scroll-area>
 
       <q-img
-        class="absolute-top"
-        src="assets/todo.jpg"
+        class=" avatar-background-image absolute-top"
+        src="../assets/images/mountains.jpg"
         style="height: 192px"
       >
         <div class="absolute-bottom bg-transparent">
           <q-avatar size="56px" class="q-mb-sm">
-            <img
-              src="https://avatars3.githubusercontent.com/u/56495025?s=460&u=0c3b0b296e41d4c74e7a4c56af3fc66731293662&v=4"
+            <img class="avatar-image"
+              src="../assets/images/khashayar.jpeg"
             />
           </q-avatar>
-          <div class="text-weight-bold">Varun V</div>
+          <div class="text-weight-bold">Khashayar Shomali</div>
+          <div class="">@shomalikhashayar</div>
         </div>
       </q-img>
     </q-drawer>
@@ -108,8 +109,15 @@ export default {
   filter: grayscale(100%);
 }
 .text-subtitle1 {
-  padding-left: 4px;
+  padding-left: 5px;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.616);
 }
+
+.avatar-image{
+  border: 1px solid rgb(255, 255, 255);
+}
+
+
+
 </style>

@@ -1,6 +1,6 @@
 # Quasar App (quasar-todo-app-project)
 
-A Quasar Todo App 
+A Quasar Todo App by Khashayar Shomali
 
 ## Install the dependencies
 ```bash
