@@ -140,9 +140,9 @@ module.exports = configure(function (ctx) {
       
 
       manifest: {
-        name: `Quasar App`,
-        short_name: `Quasar App`,
-        description: `A Quasar Project`,
+        name: `Todo App`,
+        short_name: `Todo App`,
+        description: `A Quasar Todo App Project`,
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
